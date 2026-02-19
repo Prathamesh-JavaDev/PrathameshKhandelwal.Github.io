@@ -315,6 +315,21 @@ table {
   border-collapse: collapse;
 }
 
+
+.dev-icons .list-inline-item {
+    font-size: 1.1rem;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.dev-icons i {
+    font-size: 1.6rem;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+
+
 caption {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
