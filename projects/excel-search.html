@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Case study for a Java Excel Searcher App using Apache POI and JavaFX.">
+    <title>Excel Searcher App | Prathamesh Khandelwal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="site-header">
+    <a class="brand" href="../index.html" aria-label="Back to portfolio">PK</a>
+    <nav class="nav" aria-label="Project navigation">
+        <a href="../index.html#experience">Experience</a>
+        <a href="../index.html#projects">Projects</a>
+        <a href="../index.html#skills">Skills</a>
+        <a href="../index.html#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section class="case-hero">
+        <p class="eyebrow">Tech Mahindra Ltd. Project</p>
+        <h1>Excel Searcher App</h1>
+        <p>
+            A Java desktop application built with JavaFX, Apache POI, and Maven to search Excel
+            workbooks across sheets and cells for exact and similar data tuples.
+        </p>
+        <div class="project-card__meta">
+            <span>Java</span>
+            <span>Apache POI</span>
+            <span>JavaFX</span>
+            <span>Maven</span>
+            <span>Version Loader</span>
+        </div>
+        <div class="hero__actions">
+            <a class="button button--primary" href="https://github.com/Prathamesh-JavaDev">GitHub</a>
+            <a class="button" href="../index.html">Back to Portfolio</a>
+        </div>
+    </section>
+
+    <section class="section case-layout">
+        <aside class="case-sidebar" aria-label="Project summary">
+            <div>
+                <span>Role</span>
+                <strong>Software Engineer</strong>
+            </div>
+            <div>
+                <span>Focus</span>
+                <strong>Excel parsing, advanced search, version file management</strong>
+            </div>
+            <div>
+                <span>Output</span>
+                <strong>Fast workbook search across sheets and cells</strong>
+            </div>
+        </aside>
+
+        <div class="case-content">
+            <article>
+                <h2>Problem</h2>
+                <p>
+                    Operational teams often need to locate matching records inside large Excel workbooks.
+                    Manual search is slow when data spans multiple sheets, especially when the goal is to
+                    compare exact and similar data tuples.
+                </p>
+            </article>
+
+            <article>
+                <h2>Solution</h2>
+                <p>
+                    The application reads workbooks with Apache POI, scans sheets and cells, and supports
+                    advanced search behavior for exact and similar matches. It helps users find relevant
+                    tuples quickly while keeping the interface lightweight through JavaFX.
+                </p>
+            </article>
+
+            <article>
+                <h2>Architecture</h2>
+                <ul class="check-list">
+                    <li><strong>JavaFX UI:</strong> Provides desktop interaction for file selection and searching</li>
+                    <li><strong>Apache POI Layer:</strong> Reads workbook sheets, rows, and cells</li>
+                    <li><strong>Search Engine:</strong> Detects exact and similar tuples across workbook data</li>
+                    <li><strong>Loader System:</strong> Dynamically detects and manages system version files</li>
+                </ul>
+            </article>
+
+            <article>
+                <h2>Execution Flow</h2>
+                <ol class="number-list">
+                    <li>User selects an Excel workbook and enters search input.</li>
+                    <li>The UI validates input and starts the search.</li>
+                    <li>ExcelReader loads the workbook through Apache POI.</li>
+                    <li>The system scans all sheets and cells for exact and similar data tuples.</li>
+                    <li>Matching results are collected and returned to the UI.</li>
+                    <li>The loader system manages version files for scalability and maintainability.</li>
+                </ol>
+            </article>
+
+            <article>
+                <h2>Technical Highlights</h2>
+                <ul class="check-list">
+                    <li>Supports .xls and .xlsx files</li>
+                    <li>Built with JavaFX, Apache POI, and Maven</li>
+                    <li>Scans all sheets and cells for broader match coverage</li>
+                    <li>Supports exact and similar tuple search</li>
+                    <li>Includes a loader system for dynamic version-file management</li>
+                </ul>
+            </article>
+
+            <article>
+                <h2>Improvements</h2>
+                <p>
+                    Future versions can introduce streaming reads for very large files, indexing for faster
+                    repeated searches, exportable result sets, and additional filters for domain-specific workbook data.
+                </p>
+            </article>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <p>&copy; 2026 Prathamesh Khandelwal. Built with HTML and CSS.</p>
+</footer>
+
+<script src="../script.js"></script>
+</body>
+</html>

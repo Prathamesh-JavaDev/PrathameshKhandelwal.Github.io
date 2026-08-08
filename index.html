@@ -1,242 +1,365 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Portfolio of Prathamesh Khandelwal, a Java Backend Developer experienced in Spring Boot, RESTful APIs, MySQL, and telecom domain applications." />
-        <meta name="author" content="Prathamesh Khandelwal" />
-        <title>Prathamesh's Portfolio</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Prathamesh Khandelwal, Software Engineer specializing in Java, Spring Boot, REST APIs, microservices, and MySQL.">
+    <title>Prathamesh Khandelwal | Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+    <a class="brand" href="#top" aria-label="Prathamesh Khandelwal home">PK</a>
+    <nav class="nav" aria-label="Primary navigation">
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#approach">Approach</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
 
-        <!-- Devicon -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-
-        <!-- Font Awesome -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Prathamesh Khandelwal</span>
-                <!-- <button class="btn" onclick="changeTheme()"><i class="fas fa-bulb"></i> </button> -->
-                <!-- <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src=" PROFILE PHOTO HERE" alt="..." /></span> -->
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li> -->
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
-                </ul>
+<main id="top">
+    <section class="hero">
+        <div class="hero__content">
+            <p class="eyebrow">Software Engineer | Java Backend</p>
+            <h1>Prathamesh Khandelwal</h1>
+            <p class="hero__subtitle">Software Engineer at Tech Mahindra building Spring Boot microservices that handle 80K+ production API requests per day.</p>
+            <p class="hero__text">
+                I work on telecom order and customer management systems, third-party integrations,
+                MySQL query optimization, and internal tools that improve production visibility.
+            </p>
+            <div class="contact-strip" aria-label="Quick contact details">
+                <a href="mailto:prathameshkhandelwal01@gmail.com">prathameshkhandelwal01@gmail.com</a>
+                <a href="tel:+918329209594">+91 8329209594</a>
+                <a href="http://www.linkedin.com/in/prathameshkhandelwal">LinkedIn</a>
+                <a href="https://github.com/Prathamesh-JavaDev">GitHub</a>
             </div>
-        </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- About-->
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        Prathamesh
-                        <span class="text-primary">Khandelwal</span>
-                    </h1>
-                    <div class="subheading mb-5">
-                        Maharashtra, India |
-                        prathameshkhandelwal01@gmail.com |
-                        <a class="text-primary" href="assets/Resume/Prathamesh_Khandelwal_Resume.pdf">Resume</a>
-                    </div>
-                    <p class="lead mb-5">Software Engineer at Tech Mahindra Ltd.</p>
-                    <p>I am a Java Backend Developer with 1.6 years of experience building and maintaining Spring Boot-based RESTful microservices for telecom domain applications. I have hands-on experience with third-party REST integrations, MySQL performance optimization, and Agile/Scrum delivery. My key skills include Java, Spring Boot, RESTful APIs, MySQL, and Git.</p>
-
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Experience-->
-            <section class="resume-section" id="experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Software Engineer</h3>
-                            <h3 class="mb-0">Associate Software Engineer</h3>
-                            <div class="subheading mb-3">Tech Mahindra Ltd.</div>
-                            <p>Build and maintain Spring Boot-based RESTful microservices for telecom domain applications. Work on third-party REST integrations, MySQL performance optimization, and Agile/Scrum delivery to ship high-impact features on time.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">February 2026 - Present<br><br>August 2024 - January 2026</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Cyber Security Intern</h3>
-                            <div class="subheading mb-3">Data Insiders</div>
-                            <p>Learned and practiced cybersecurity fundamentals while applying Java tooling skills.
-                            <br>Developed <b>VITA Stego</b>, a steganography tool using Core Java and Swing.
-                            <br>Led a team that won an internal OSINT event.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">November 2022 - March 2023</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-
-            <!-- Projects-->
-            <section class="resume-section" id="projects">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Projects</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Excel Searcher</h3>
-                            <div class="subheading mb-3">Tech Mahindra Ltd.</div>
-                            <p>Developed an internal tool to track and analyze recurring AMS service errors, improving visibility and response time.<br>Tech stack: Core Java, JavaFX, Apache POI.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2025 - October 2025</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Cryptotool (A single platform for multiple cryptographic techniques)</h3>
-                            <div class="subheading mb-3">Sipna COET (Final year project) <a href="assets/Thesis/CryptoTool(ThesisReport).pdf">Read thesis here</a></div>
-                            <p>Developed a cryptography application that can perform symmetric and asymmetric cryptography on user data and files.<br>Users can also add custom algorithms and combine multiple algorithms.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">January 2024 - June 2024</span></div>
-                    </div>
-                </div>
-            </section>
-
-            <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Sipna College of Engineering and Technology, Amravati</h3>
-                            <div class="subheading mb-3">B.E. Computer Science and Engineering</div>
-                            <p>CGPA: 8.23</p>
-                        </div>
-                        <div class="flex-shrink-0">
-                            <span class="text-primary">2020 - 2024</span>
-                        </div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">HSC</h3>
-                            <p>Score: 77.85%</p>
-                        </div>
-                        <div class="flex-shrink-0">
-                            <span class="text-primary">2019</span>
-                        </div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">SSC</h3>
-                            <p>Score: 90%</p>
-                        </div>
-                        <div class="flex-shrink-0">
-                            <span class="text-primary">2017</span>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
-            <hr class="m-0" />
-
-            <!-- Skills -->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-4">Technical Skills</h2>
-
-                    <!-- Languages -->
-                    <div class="subheading mb-3">Languages</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item">
-                            <i class="fab fa-java"></i> Java
-                        </li>
-                        <li class="list-inline-item">
-                            <i class="devicon-mysql-plain colored"></i> SQL (MySQL)
-                        </li>
-                    </ul>
-
-                    <!-- Development -->
-                    <div class="subheading mb-3">Development</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item">
-                            <i class="devicon-spring-plain colored"></i> Spring Boot
-                        </li>
-                        <li class="list-inline-item">
-                            <i class="fas fa-server"></i> RESTful APIs
-                        </li>
-                        <li class="list-inline-item">
-                            <i class="devicon-git-plain colored"></i> Git
-                        </li>
-                        <li class="list-inline-item">
-                            <i class="devicon-github-original"></i> GitHub
-                        </li>
-                        <li class="list-inline-item">
-                            <i class="devicon-maven-plain colored"></i> Maven
-                        </li>
-                    </ul>
-
-                    <!-- Cloud -->
-                    <div class="subheading mb-3">Cloud</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item">
-                            <i class="fab fa-aws"></i> Amazon Web Services (AWS)
-                        </li>
-                        <li class="list-inline-item">
-                            <i class="devicon-googlecloud-plain colored"></i> Google Cloud (Vertex AI Applications)
-                        </li>
-                    </ul>
-
-                </div>
-            </section>
-            <hr class="m-0" />
-
-            <!-- Awards-->
-            <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <a href="assets/certificates/Prathamesh Laxmikant Khandelwal_AWSCloudPractitionerCertificate.jpg" target="_blank">AWS Certified Cloud Practitioner - Amazon Web Services (Issued June 13, 2026)</a>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <a href="assets/certificates/Prathamesh Laxmikant Khandelwal_InnovatorOfTheMonth (29-12-2025).pdf" target="_blank">Innovator of the Month Award - Tech Mahindra</a>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <a href="assets/certificates/Prathamesh Laxmikant Khandelwal_AIWhiteBelt(15-09-2025).png" target="_blank">AI White Belt - Tech Mahindra</a>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <a href="assets/certificates/Prathamesh Laxmikant Khandelwal_Bravo(20-06-2025).pdf" target="_blank">Bravo Award - Tech Mahindra</a>
-                        </li>
-                    </ul>
-                </div>
-            </section>
+            <div class="hero__actions" aria-label="Profile links">
+                <a class="button button--primary" href="#projects">View Projects</a>
+                <a class="button" href="mailto:prathameshkhandelwal01@gmail.com">Contact Me</a>
+                <a class="button button--ghost" href="assets/resume/Prathamesh_Khandelwal_Resume.pdf">Resume</a>
+            </div>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- <script>
-            function changeTheme()
-            {
+    </section>
 
-            }
-        </script> -->
-    </body>
+    <section class="stats" aria-label="Career highlights">
+        <div>
+            <strong>1.5+</strong>
+            <span>Years as Software Engineer</span>
+        </div>
+        <div>
+            <strong>30-35%</strong>
+            <span>API response-time improvement</span>
+        </div>
+        <div>
+            <strong>Bravo Award</strong>
+            <span>Tech Mahindra, June 2025</span>
+        </div>
+    </section>
+
+    <section class="section experience-section" id="experience">
+        <div class="section__heading">
+            <p class="eyebrow">Experience</p>
+            <h2>Production backend work across APIs, telecom integrations, and performance improvements.</h2>
+        </div>
+        <div class="experience-grid">
+            <article class="experience-card experience-card--primary">
+                <div class="experience-card__top">
+                    <div>
+                        <h3>Software Engineer</h3>
+                        <p>Tech Mahindra Ltd. | Aug 2024 - Present</p>
+                    </div>
+                    <span>Current Role</span>
+                </div>
+                <ul class="check-list">
+                    <li>Developed and maintained Spring Boot RESTful microservices for telecom order and customer management systems, handling 80K+ API requests per day in production.</li>
+                    <li>Integrate billing and provisioning systems through REST APIs, reducing manual processing by 40%.</li>
+                    <li>Optimize MySQL queries and indexing, improving high-traffic API response time by 30-35%.</li>
+                    <li>Deliver 10+ user stories per sprint with on-time completion and cross-team collaboration.</li>
+                    <li>Built an internal AMS error analysis tool that reduced average incident response time by 20%.</li>
+                </ul>
+            </article>
+            <article class="experience-card">
+                <h3>Cyber Security Intern</h3>
+                <p class="experience-card__meta-text">Data InsiderS | Nov 2022 - Mar 2023</p>
+                <ul class="compact-list">
+                    <li>Led cybersecurity and OSINT tasks</li>
+                    <li>Won Internal OSINT Event</li>
+                    <li>Built VITA Stego using Core Java and Swing</li>
+                    <li>Strengthened Java tooling and security fundamentals</li>
+                </ul>
+            </article>
+            <article class="experience-card">
+                <h3>Education & Recognition</h3>
+                <ul class="compact-list">
+                    <li>B.E. CSE, Sipna College, CGPA 8.23</li>
+                    <li>AWS Certified Cloud Practitioner, June 2026</li>
+                    <li>Bravo Award, Tech Mahindra 2025</li>
+                    <li>Winner, Techno Vision Hackathon 2022</li>
+                    <li>Google Cloud Vertex AI Search badges</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <section class="section" id="skills">
+        <div class="section__heading">
+            <p class="eyebrow">Core Toolkit</p>
+            <h2>Technical skills aligned with backend delivery.</h2>
+        </div>
+        <div class="skill-grid">
+            <article class="skill-card">
+                <h3>Languages</h3>
+                <p>Primary language and query skills used across backend development.</p>
+                <div class="skill-map" aria-label="Language skills">
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java logo">
+                        <div>
+                            <strong>Java</strong>
+                            <span>Core Java, Java 8</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL logo">
+                        <div>
+                            <strong>MySQL</strong>
+                            <span>SQL fundamentals</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="skill-card">
+                <h3>Backend</h3>
+                <p>Frameworks and patterns used to build service-oriented applications.</p>
+                <div class="skill-map" aria-label="Backend skills">
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot logo">
+                        <div>
+                            <strong>Spring Boot</strong>
+                            <span>APIs, services, business logic</span>
+                        </div>
+                    </div>
+                    <div class="skill-item skill-item--mark">
+                        <span class="skill-mark">API</span>
+                        <div>
+                            <strong>RESTful APIs</strong>
+                            <span>Integration and contracts</span>
+                        </div>
+                    </div>
+                    <div class="skill-item skill-item--mark">
+                        <span class="skill-mark">MS</span>
+                        <div>
+                            <strong>Microservices</strong>
+                            <span>Telecom workflows</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="skill-card">
+                <h3>Database</h3>
+                <p>Relational database skills used for backend development and data access.</p>
+                <div class="skill-map" aria-label="Database skills">
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL logo">
+                        <div>
+                            <strong>MySQL</strong>
+                            <span>Queries and schema usage</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL logo">
+                        <div>
+                            <strong>PostgreSQL</strong>
+                            <span>Relational database skills</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="skill-card">
+                <h3>Tools</h3>
+                <p>Development tools used for builds, version control, API testing, and delivery.</p>
+                <div class="skill-map" aria-label="Development tools">
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" alt="Maven logo">
+                        <div>
+                            <strong>Maven</strong>
+                            <span>Build management</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git logo">
+                        <div>
+                            <strong>Git</strong>
+                            <span>Version control</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub logo">
+                        <div>
+                            <strong>GitHub</strong>
+                            <span>Repository workflows</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman logo">
+                        <div>
+                            <strong>Postman</strong>
+                            <span>API testing</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="skill-card">
+                <h3>Cloud & Certifications</h3>
+                <p>Cloud certification and AI search learning from hands-on badge work.</p>
+                <div class="skill-map" aria-label="Cloud and AI skills">
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS logo">
+                        <div>
+                            <strong>AWS</strong>
+                            <span>Certified Cloud Practitioner</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="Google Cloud logo">
+                        <div>
+                            <strong>Google Cloud</strong>
+                            <span>Vertex AI Search Applications</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="section" id="projects">
+        <div class="section__heading section__heading--split">
+            <div>
+                <p class="eyebrow">Selected Work</p>
+                <h2>Projects that show Java, tooling, and problem-solving depth.</h2>
+            </div>
+            <a class="text-link" href="#contact">Discuss a project</a>
+        </div>
+        <div class="project-grid">
+            <article class="project-card">
+                <div class="project-card__header">
+                    <div>
+                        <p class="project-card__label">Tech Mahindra Ltd.</p>
+                        <h3>Excel Searcher App</h3>
+                    </div>
+                    <span class="project-status">Completed</span>
+                </div>
+                <div class="project-card__meta">
+                    <span>Java</span>
+                    <span>Apache POI</span>
+                    <span>JavaFX</span>
+                    <span>Maven</span>
+                    <span>Search Logic</span>
+                </div>
+                <p>
+                    A Java application built to scan large Excel workbooks across sheets and cells,
+                    helping users find exact and similar data tuples quickly.
+                </p>
+                <ul class="check-list">
+                    <li>Built with JavaFX, Apache POI, and Maven</li>
+                    <li>Advanced search engine scans all sheets and cells for exact and similar tuple matches</li>
+                    <li>Implemented loader system to dynamically detect and manage system version files</li>
+                </ul>
+                <div class="card-actions">
+                    <a class="button button--small" href="projects/excel-search.html">View Case Study</a>
+                    <a class="text-link" href="https://github.com/Prathamesh-JavaDev">GitHub</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-card__header">
+                    <div>
+                        <p class="project-card__label">Final Year Project</p>
+                        <h3>Crypto-Tool</h3>
+                    </div>
+                    <span class="project-status">Team Lead</span>
+                </div>
+                <div class="project-card__meta">
+                    <span>Java</span>
+                    <span>Cryptography</span>
+                    <span>Desktop Tool</span>
+                    <span>Team of 5</span>
+                </div>
+                <p>
+                    A modular Java cryptographic desktop tool with pluggable encryption algorithms
+                    and custom algorithm implementations.
+                </p>
+                <ul class="check-list">
+                    <li>Led a team of five through project planning and implementation</li>
+                    <li>Implemented symmetric and asymmetric encryption algorithms</li>
+                    <li>Designed custom Bit Manipulation Fixed Key and Arithmetic No Key algorithms</li>
+                </ul>
+                <div class="card-actions">
+                    <a class="button button--small" href="projects/final-year.html">View Case Study</a>
+                    <a class="text-link" href="https://github.com/Prathamesh-JavaDev">GitHub</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="section approach-section" id="approach">
+        <div class="section__heading">
+            <p class="eyebrow">Engineering Approach</p>
+            <h2>How I structure backend work.</h2>
+        </div>
+        <div class="timeline">
+            <article>
+                <span></span>
+                <h3>Clear API contracts</h3>
+                <p>Build endpoints around predictable contracts, validation, and clear business flow ownership.</p>
+            </article>
+            <article>
+                <span></span>
+                <h3>Layered architecture</h3>
+                <p>Keep API, service, repository, integration, and utility concerns easy to reason about.</p>
+            </article>
+            <article>
+                <span></span>
+                <h3>Operational thinking</h3>
+                <p>Improve response times, incident visibility, and production workflows with measurable outcomes.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="section about-section">
+        <div class="about-panel">
+            <p class="eyebrow">About</p>
+            <h2>Software engineer focused on backend reliability and practical delivery.</h2>
+            <p>
+                I enjoy translating real business workflows into dependable Java services. My work spans
+                REST APIs, telecom system integrations, MySQL optimization, internal productivity tools,
+                and continuous learning across AWS and Google Cloud.
+            </p>
+        </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+        <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Have a Java backend role or project in mind?</h2>
+            <p>Reach out for backend engineering, API development, or Java-focused opportunities.</p>
+        </div>
+        <div class="contact-actions">
+            <a class="button button--primary" href="mailto:prathameshkhandelwal01@gmail.com">Email Me</a>
+            <a class="button" href="http://www.linkedin.com/in/prathameshkhandelwal">LinkedIn</a>
+            <a class="button" href="assets/resume/Prathamesh_Khandelwal_Resume.pdf">Resume</a>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <p>&copy; 2026 Prathamesh Khandelwal. Built with HTML and CSS.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
 </html>
